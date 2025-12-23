@@ -26,6 +26,7 @@ import Frame210 from "./Frame210";
 import Frame211 from "./Frame211";
 import Frame212 from "./Frame212";
 import Frame213 from "./Frame213";
+import Frame214 from "./Frame214";
 
 function Group10() {
   return (
@@ -2214,6 +2215,7 @@ export default function HomePage() {
           Projects I'm proud of
         </p>
       </div>
+      <Frame214 />
       <Frame211 />
       <Frame212 />
       <Frame213 />

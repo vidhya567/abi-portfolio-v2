@@ -3,18 +3,29 @@ import imgInstagramPhones from "figma:asset/49d30e90e6000758c8382fe04dcd942e7b61
 import imgBunny from "figma:asset/af94adb267afbad0106c8498eeac2bada7600e7e.png";
 import imgCloud from "figma:asset/933424ab3570da3e21cd28ea5f9232bbafe12f53.png";
 
+
 function Group4() {
   return (
     <div className="relative shrink-0">
-      <img alt="Instagram app mockups" className="w-full h-auto object-contain" src={imgInstagramPhones} />
+      <img
+        alt="Instagram app mockups"
+        className="w-full h-auto object-contain"
+        src={imgInstagramPhones}
+      />
     </div>
   );
 }
 
 function ResumeCloud() {
   return (
-    <div className="[grid-area:1_/_1] bg-[indianred] box-border content-stretch flex gap-[13.125px] h-[60px] items-center justify-center ml-0 mt-[4px] px-[50.625px] py-[22.5px] relative rounded-[93.75px]" data-name="Resume cloud">
-      <p className="font-['Fredoka:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[22.5px] text-center text-nowrap text-white whitespace-pre" style={{ fontVariationSettings: "'wdth' 100" }}>
+    <div
+      className="[grid-area:1_/_1] bg-[indianred] box-border content-stretch flex gap-[13.125px] h-[60px] items-center justify-center ml-0 mt-[4px] px-[50.625px] py-[22.5px] relative rounded-[93.75px]"
+      data-name="Resume cloud"
+    >
+      <p
+        className="font-['Fredoka:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[22.5px] text-center text-nowrap text-white whitespace-pre"
+        style={{ fontVariationSettings: "'wdth' 100" }}
+      >
         Explore
       </p>
     </div>
@@ -27,8 +38,15 @@ function Group2() {
       <div className="absolute h-[19.627px] left-0 top-[49.37px] w-[64.017px]">
         <img alt="" className="w-full h-full object-contain" src={imgCloud} />
       </div>
-      <div className="absolute left-[2px] size-[59.121px] top-0" data-name="Bunny">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgBunny} />
+      <div
+        className="absolute left-[2px] size-[59.121px] top-0"
+        data-name="Bunny"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full"
+          src={imgBunny}
+        />
       </div>
     </div>
   );
@@ -37,8 +55,12 @@ function Group2() {
 function Group() {
   return (
     <div className="relative">
-      <p className="font-['Fredoka:Regular',sans-serif] font-normal leading-[normal] relative text-[#474460] text-[40px] w-[652px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        Redesigning Instagram's Shared Media to Make Rediscovering Content Effortless
+      <p
+        className="font-['Fredoka:Regular',sans-serif] font-normal leading-[normal] relative text-[#474460] text-[40px] w-[652px]"
+        style={{ fontVariationSettings: "'wdth' 100" }}
+      >
+        Redesigning Instagram's Shared Media to Make Rediscovering Content
+        Effortless
       </p>
     </div>
   );
