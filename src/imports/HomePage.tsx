@@ -496,7 +496,7 @@ function Group12() {
 function Group4() {
   const handleClick = () => {
     window.open(
-      "https://www.figma.com/proto/SdcKHOF6qO8wgeyr6njQB3/Abi_UI-forge-challenge_finflex?page-id=552%3A5534&node-id=772-2908&p=f&viewport=-1311%2C-14039%2C0.63&t=dxo6eWy1CbP0iQ4h-1&scaling=min-zoom&content-scaling=fixed",
+      "https://cargo-widen-48043221.figma.site",
       "_blank",
       "noopener,noreferrer"
     );
